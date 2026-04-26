@@ -8,7 +8,7 @@ const cors         = require('cors');
 const path         = require('path');
 const multer       = require('multer');
 const fs           = require('fs');
-const Presentation = require('./models/Presentation');
+const Presentation = require('./models/presentation');
 
 // const jwt = require('jsonwebtoken');
 // const { OAuth2Client } = require('google-auth-library');
