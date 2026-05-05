@@ -593,3 +593,6 @@ document.addEventListener('DOMContentLoaded', () => {
   await renderCards();   // pulls from MongoDB
   await updateStats();   // pulls aggregate stats from MongoDB
 })();
+
+
+

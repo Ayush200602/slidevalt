@@ -8,7 +8,7 @@ const cors         = require('cors');
 const path         = require('path');
 const multer       = require('multer');
 const fs           = require('fs');
-const Presentation = require('./models/presentation');
+const Presentation = require('./models/Presentation');
 
 // const jwt = require('jsonwebtoken');
 // const { OAuth2Client } = require('google-auth-library');
@@ -331,3 +331,4 @@ app.listen(PORT, () => {
   
   console.log(`🗄️   MongoDB URI       → ${process.env.MONGO_URI}\n`);
 });
+
